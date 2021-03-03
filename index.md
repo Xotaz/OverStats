@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+## Welcome to OverStats Documentation
 
-You can use the [editor on GitHub](https://github.com/Xotaz/OverStats/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is the official bot documentation for OverStats.
+OverStats is a fairly new bot developed and maintained by Gorillaa & Xotaz
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can [Invite the Bot](https://github.com/Xotaz/OverStats/edit/gh-pages/index.md) to your server
 
-### Markdown
+### Information
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+OverStats is a Discord.JS bot that will show you your stats provided by an API from Blizzard. Therefore your stats will never be 100% up 2 date.
+Please always allow up to 1-12 hours for information to update.
 
-```markdown
-Syntax highlighted code block
+If some information does not match your Overwatch profile or you are having issues with the bot, please join the [Support Discord](https://discord.gg/298) and provide as much info as possible for us to assist you. (This includes your Battletag and platform of play)
 
-# Header 1
-## Header 2
-### Header 3
+We do not save/record any of your private details. **Only your Battletag & Discord ID will be saved.**
 
-- Bulleted
-- List
+If you enjoy using OverStats, please [Donate](https://example.com) ❤
 
-1. Numbered
-2. List
+### Initial Setup
 
-**Bold** and _Italic_ and `Code` text
+The bot requires certain permissions in the planned active channel to be able to function properly, those permissions include:
+1. View Channels _(Turn this off on the channels you wish to restrict OverStats.)_
+2. Send Messages
+3. Use External Emoji
+4. Embed Links
+5. Add Reactions
 
-[Link](url) and ![Image](src)
-```
+_If you wish to restrict OverStats to certain channel(s) or catagories, you must setup the permissions manually to do so._
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Xotaz/OverStats/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Documentation
+* **help** - Shows a help page in an embed.
+* **lookup <BattleTag#XXXX>** - Looks ups a player and shows a detailed overview of their stats.
+* **verify** - Sends you a DM and starts an OAuth process to link your battletag to your Discord ID 
+* **unverify** - Removes you from the database. Useful if you have changed Battletags
+* **register/unregister** - Alias of **verify/unverify** 
+* **stats** - Shows you your stats.
+* **sr** - Shows you your SR and Competitive Ranks for each class.
+* **mostplayed** - Shows and ranks your most played hero's.
+* **invite** - DM's you the bot invite link
+* **support** - DM's you the support Discord server link.
