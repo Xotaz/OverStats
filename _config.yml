@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 title: [OverStats Documentation]
 description: [OverStats is an Overwatch Discord bot that shows in depth stats of a battletag.]
-logo: [/images/ow.png]
+logo: ["/images/ow.png"]
